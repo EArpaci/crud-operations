@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 3.6.1"
+  },
+  "build": {
+    "development": {
+      "channel": "development",
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "preview": {
+      "channel": "preview",
+      "ios": {
+        "resourceClass": "m-medium",
+        "simulator": true,
+      }
+    },
+    "production": {
+      "channel": "production",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    }
+  }
+}
